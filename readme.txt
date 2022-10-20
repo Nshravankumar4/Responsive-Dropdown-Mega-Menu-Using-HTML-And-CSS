@@ -2,7 +2,5 @@ To create this program (Responsive Mega Menu and Dropdown Menu). First, you need
 
 Second, create a CSS file with the name of style.css and paste the given codes in your CSS file. Remember, you’ve to create a file with .css extension.
 
-That’s all, now you’ve successfully created a Responsive Mega Menu and Dropdown Menu using only HTML & CSS. If your code does not work or you’ve faced any error/problem then please reach me through email codingengineer01@gmail.com
+That’s all, now you’ve successfully created a Responsive Mega Menu and Dropdown Menu using only HTML & CSS.
 
-Subscribe to my youtube channel
-https://www.youtube.com/channel/UCuULmdVQ7jBWKrOe6ybd7Bg
