@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dropdown & Mega Menu | CodingEngineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: rgb(76, 116, 216);  
+}  
+.container {  
+    padding: 50px;  
+  background-color: lightblue;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: rgb(120, 98, 216);  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><span>Coding</span>Engineer</div>
+            <input type="radio" name="slider" id="menu-btn">
+            <input type="radio" name="slider" id="close-btn">
+            <ul class="nav-links">
+                <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                <li><a href="#">Home</li>
+                <li><a href="#">Blog</li>
+                    <li>
+                        <a href="#" class="desktop-item">Dropdown Menu</a>
+                        <input type="checkbox" id="showDrop">
+                        <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+                        <ul class="drop-menu">
+                            <li><a href="#">Drop menu 1</a></li>
+                            <li><a href="#">Drop menu 2</a></li>
+                            <li><a href="#">Drop menu 3</a></li>
+                            <li><a href="#">Drop menu 4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="desktop-item">Mega Menu</a>
+                        <input type="checkbox" id="showMega">
+                        <label for="showMega" class="mobile-item">Mega Menu</label>
+                        <div class="mega-box">
+                            <div class="content">
+                                <div class="row">
+                                    <img src="Ape.png" alt="">
+                                </div>
+                                <div class="row">
+                                    <header>Mega 1 Services</header>
+                                    <ul class="mega-links">
+                                        <li><a href="#">UI/UX</a></li>
+                                        <li><a href="#">Website Design</a></li>
+                                        <li><a href="#">App Development</a></li>
+                                        <li><a href="#">Custom Logo</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <header>Mega 2 Services</header>
+                                    <ul class="mega-links">
+                                        <li><a href="#">Business Email</a></li>
+                                        <li><a href="#">Personal Email</a></li>
+                                        <li><a href="#">Mobile Email</a></li>
+                                        <li><a href="#">Website Marketing</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <header>Mega 3 Services</header>
+                                    <ul class="mega-links">
+                                        <li><a href="#">Website Hosting</a></li>
+                                        <li><a href="#">Site Seal</a></li>
+                                        <li><a href="#">Privacy Seal</a></li>
+                                        <li><a href="#">Business Cards</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+            </ul>
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+        </div>
+    </nav>
+ 
+<br>
+<br><br>
+<center>
+
+<middle>
+    <td><input type="checkbox" size="500"><font size="50">  
+        Hello World 
+    </font>  </td><input type="button" size="500" >
+</middle>
+</center>
+        </div>
+    </div>
+</body>
+</html>
